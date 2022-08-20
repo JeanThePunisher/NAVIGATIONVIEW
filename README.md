@@ -1,6 +1,7 @@
 # NAVIGATIONVIEW
-LINKS DE JSON:
+LINKS DE JSON USUARIOS:
 https://my-json-server.typicode.com/JeanThePunisher/ArchivosJson/usuarios
+LINKS DE JSON ITEMS MENÚ:
 https://my-json-server.typicode.com/JeanThePunisher/archivo-json-2/items
 
 CAPTURAS:

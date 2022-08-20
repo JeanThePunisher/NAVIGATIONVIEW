@@ -1,15 +1,6 @@
-# Unidad_Posgrado_NAVIGATIONVIEW
-Practica Navigation View
-1.-Login de la aplicación, existen dos tipos de usuarios uno es administrador y otro un usuario normal
-![image](https://user-images.githubusercontent.com/87103650/182464606-460d1ea6-9c7d-43f3-abd5-ce3a6efefa4e.png)
-2.-Los Item dinamicos
-![image](https://user-images.githubusercontent.com/87103650/182464699-a3d82c53-0194-4092-9596-e8cfad2a1656.png)
-3.-seleccionando un Item en este caso el de maestrias
-![image](https://user-images.githubusercontent.com/87103650/182464774-c2564b83-82a9-46fc-a46f-54eacfe419d5.png)
-4.-Usuario normal
-![image](https://user-images.githubusercontent.com/87103650/182465009-be4e12cd-3866-49c5-8455-31c23f90bfb0.png)
-5.-Inicio 
-![image](https://user-images.githubusercontent.com/87103650/182465080-10dada34-5310-45ab-a39f-b3362d713cf7.png)
-6.-Se muestran diferentes Item
-![image](https://user-images.githubusercontent.com/87103650/182465162-7509b06b-78c0-4c5c-bff0-0fffa53e3fcf.png)
+# NAVIGATIONVIEW
 
+![image](https://user-images.githubusercontent.com/101907265/184543972-0063b155-e850-4f75-9598-dbe8b2af5874.png)
+![image](https://user-images.githubusercontent.com/101907265/184543982-ccff4b38-05ae-4fc6-be44-c9049c409903.png)
+![image](https://user-images.githubusercontent.com/101907265/184544000-971c0d66-33a4-460e-b2c6-48fa02700cf8.png)
+![image](https://user-images.githubusercontent.com/101907265/184544018-5c15a6c5-6d50-43b8-a81a-34eb915e3e95.png)

@@ -5,10 +5,8 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="272dp"
-        android:layout_height="577dp"
-        android:text="Bienvenido al inicio de la aplicación"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="82dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Inicio de la aplicación"
+        android:textAlignment="center" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,10 +5,8 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="310dp"
-        android:layout_height="673dp"
-        android:text="Visualizar Estadísticas"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="146dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Estadisticas del usuario"
+        android:textAlignment="center" />
 </androidx.constraintlayout.widget.ConstraintLayout>

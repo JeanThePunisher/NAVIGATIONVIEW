@@ -10,7 +10,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
 import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
@@ -103,6 +105,32 @@ class NavigationView : AppCompatActivity(), NavigationView.OnNavigationItemSelec
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        TODO("Not yet implemented")
+        var fragment: Fragment? = null
+        when(item.title){
+            "Inicio"-> {
+                fragment= inicio()
+                Toast.makeText(this,"Inicio de la aplicación", Toast.LENGTH_SHORT).show()
+            }
+            "Estadísticas"-> {
+                fragment= inicio()
+                Toast.makeText(this,"Visualizar estadísticas", Toast.LENGTH_SHORT).show()
+            }
+            "Configuración"-> {
+                fragment= configuracion()
+                Toast.makeText(this,"Configuración de la aplicación", Toast.LENGTH_SHORT).show()
+            }
+        }
+        if (fragment != null) {
+            getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit()
+
+            item.setChecked(true)
+            getSupportActionBar()?.setTitle(item.getTitle());
+        }
+        drawerlayout.closeDrawer(GravityCompat.START)
+        return true
     }
 }
+

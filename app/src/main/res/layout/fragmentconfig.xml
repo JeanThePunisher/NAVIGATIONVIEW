@@ -5,11 +5,9 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="247dp"
-        android:layout_height="594dp"
-        android:text="Configuración del sistema"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="65dp" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Configuración de la aplicación"
+        android:textAlignment="center" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
